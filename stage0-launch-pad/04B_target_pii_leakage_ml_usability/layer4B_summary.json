@@ -1,0 +1,88 @@
+{
+    "stage": "Layer 4B - Target, PII, Leakage and ML Usability",
+    "created_on": "2026-09-08 21:09:30.872266",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 3900,
+    "columns": 16,
+    "layer_status": "REVIEW_REQUIRED",
+    "possible_target_columns": [
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Size",
+        "Color",
+        "Season",
+        "Review Rating",
+        "Subscription Status",
+        "Discount Applied",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "possible_pii_columns": [
+        "Customer ID"
+    ],
+    "possible_sensitive_columns": [
+        "Age",
+        "Gender"
+    ],
+    "possible_leakage_columns": [
+        "Subscription Status",
+        "Payment Method"
+    ],
+    "good_feature_columns": [
+        "Age",
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Purchase Amount (USD)",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Review Rating",
+        "Discount Applied",
+        "Previous Purchases",
+        "Frequency of Purchases"
+    ],
+    "review_feature_columns": [
+        "Subscription Status",
+        "Payment Method"
+    ],
+    "weak_or_risky_feature_columns": [
+        "Customer ID"
+    ],
+    "possible_ml_directions": [
+        "Supervised learning may be possible after target confirmation.",
+        "Classification problems may be possible.",
+        "Clustering or anomaly detection may be possible."
+    ],
+    "warnings": [
+        "Possible PII columns detected.",
+        "Possible sensitive columns detected.",
+        "Possible leakage-risk columns detected.",
+        "Some weak or risky features detected."
+    ],
+    "recommendations": [
+        "Confirm the real target column before ML.",
+        "Do not use PII columns as features unless anonymized and approved.",
+        "Review sensitive columns for ethical and legal concerns.",
+        "Review leakage-risk columns before using them as input features.",
+        "Use Good Candidate Feature columns first for early baseline modeling.",
+        "Use Review Feature columns only after human inspection.",
+        "Avoid Weak or Risky Feature columns unless there is a strong reason.",
+        "Read Layer 3 data quality report before ML."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\04B_target_pii_leakage_ml_usability\\layer4B_target_pii_leakage_ml_usability_report.txt",
+        "target_candidate_report": "D:\\data\\stage0-launch-pad\\04B_target_pii_leakage_ml_usability\\target_candidate_report.csv",
+        "pii_sensitive_scan": "D:\\data\\stage0-launch-pad\\04B_target_pii_leakage_ml_usability\\pii_sensitive_scan.csv",
+        "leakage_risk_report": "D:\\data\\stage0-launch-pad\\04B_target_pii_leakage_ml_usability\\leakage_risk_report.csv",
+        "feature_usability_report": "D:\\data\\stage0-launch-pad\\04B_target_pii_leakage_ml_usability\\feature_usability_report.csv",
+        "ml_problem_possibility_report": "D:\\data\\stage0-launch-pad\\04B_target_pii_leakage_ml_usability\\ml_problem_possibility_report.txt",
+        "recommendations_txt": "D:\\data\\stage0-launch-pad\\04B_target_pii_leakage_ml_usability\\layer4B_recommendations.txt",
+        "summary_json": "D:\\data\\stage0-launch-pad\\04B_target_pii_leakage_ml_usability\\layer4B_summary.json",
+        "summary_xml": "D:\\data\\stage0-launch-pad\\04B_target_pii_leakage_ml_usability\\layer4B_summary.xml"
+    },
+    "next_action": "Run Layer 5 - Statistical Profile"
+}

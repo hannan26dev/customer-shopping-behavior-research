@@ -1,0 +1,17 @@
+column_name,missing_count,missing_percentage,non_missing_count,unique_values
+Customer ID,0,0.0,3900,3900
+Age,0,0.0,3900,53
+Gender,0,0.0,3900,2
+Item Purchased,0,0.0,3900,25
+Category,0,0.0,3900,4
+Purchase Amount (USD),0,0.0,3900,81
+Location,0,0.0,3900,50
+Size,0,0.0,3900,4
+Color,0,0.0,3900,25
+Season,0,0.0,3900,4
+Review Rating,0,0.0,3900,26
+Subscription Status,0,0.0,3900,2
+Discount Applied,0,0.0,3900,2
+Previous Purchases,0,0.0,3900,50
+Payment Method,0,0.0,3900,6
+Frequency of Purchases,0,0.0,3900,7

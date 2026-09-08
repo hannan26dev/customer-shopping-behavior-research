@@ -1,0 +1,11 @@
+LAYER 19: RESEARCH RECOMMENDATIONS
+==================================
+Created On: 2026-09-08 21:10:03.468167
+Dataset Name: dataset.csv
+Rows: 3900
+Columns: 16
+Possible Targets: ['Subscription Status']
+Files:
+D:\data\stage0-launch-pad\19_research_recommendations\research_recommendations.csv
+D:\data\stage0-launch-pad\19_research_recommendations\layer19_summary.json
+Next: Layer 20 - Next Stage Prompt Generator

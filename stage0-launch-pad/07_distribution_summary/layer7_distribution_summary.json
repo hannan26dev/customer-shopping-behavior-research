@@ -1,0 +1,46 @@
+{
+    "stage": "Layer 7 - Distribution Summary",
+    "created_on": "2026-09-08 21:09:38.988700",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 3900,
+    "columns": 16,
+    "layer_status": "REVIEW_RECOMMENDED",
+    "constant_columns": [],
+    "binary_columns": [
+        "Gender",
+        "Subscription Status",
+        "Discount Applied"
+    ],
+    "low_cardinality_columns": [
+        "Gender",
+        "Category",
+        "Size",
+        "Season",
+        "Subscription Status",
+        "Discount Applied",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "high_cardinality_columns": [
+        "Customer ID",
+        "Age",
+        "Purchase Amount (USD)"
+    ],
+    "dominated_columns_80_percent_plus": [],
+    "strengths": [
+        "Binary columns are available and may support classification or flag features.",
+        "Low-cardinality columns are available for grouping or classification analysis."
+    ],
+    "warnings": [
+        "High-cardinality columns found; encoding review may be needed."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\07_distribution_summary\\layer7_distribution_summary_report.txt",
+        "distribution_csv": "D:\\data\\stage0-launch-pad\\07_distribution_summary\\distribution_summary.csv",
+        "dominance_csv": "D:\\data\\stage0-launch-pad\\07_distribution_summary\\dominant_value_report.csv",
+        "summary_json": "D:\\data\\stage0-launch-pad\\07_distribution_summary\\layer7_distribution_summary.json",
+        "summary_xml": "D:\\data\\stage0-launch-pad\\07_distribution_summary\\layer7_distribution_summary.xml"
+    },
+    "next_action": "Run Layer 8 - Correlation Analysis"
+}

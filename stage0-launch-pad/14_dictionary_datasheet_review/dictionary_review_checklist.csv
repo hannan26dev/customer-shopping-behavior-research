@@ -1,0 +1,17 @@
+column_name,dtype,missing_count,unique_values,meaning_provided,unit_provided,allowed_values_or_range_provided,sensitivity_confirmed,ml_usage_confirmed,target_status_confirmed,review_status
+Customer ID,int64,0,3900,No,No,No,No,No,No,Pending User/Domain Expert Review
+Age,int64,0,53,No,No,No,No,No,No,Pending User/Domain Expert Review
+Gender,object,0,2,No,No,No,No,No,No,Pending User/Domain Expert Review
+Item Purchased,object,0,25,No,No,No,No,No,No,Pending User/Domain Expert Review
+Category,object,0,4,No,No,No,No,No,No,Pending User/Domain Expert Review
+Purchase Amount (USD),int64,0,81,No,No,No,No,No,No,Pending User/Domain Expert Review
+Location,object,0,50,No,No,No,No,No,No,Pending User/Domain Expert Review
+Size,object,0,4,No,No,No,No,No,No,Pending User/Domain Expert Review
+Color,object,0,25,No,No,No,No,No,No,Pending User/Domain Expert Review
+Season,object,0,4,No,No,No,No,No,No,Pending User/Domain Expert Review
+Review Rating,float64,0,26,No,No,No,No,No,No,Pending User/Domain Expert Review
+Subscription Status,object,0,2,No,No,No,No,No,No,Pending User/Domain Expert Review
+Discount Applied,object,0,2,No,No,No,No,No,No,Pending User/Domain Expert Review
+Previous Purchases,int64,0,50,No,No,No,No,No,No,Pending User/Domain Expert Review
+Payment Method,object,0,6,No,No,No,No,No,No,Pending User/Domain Expert Review
+Frequency of Purchases,object,0,7,No,No,No,No,No,No,Pending User/Domain Expert Review

@@ -1,0 +1,17 @@
+column_name,dtype,possible_pii,possible_sensitive,manual_review_required
+Customer ID,int64,True,False,True
+Age,int64,False,True,True
+Gender,object,False,True,True
+Item Purchased,object,False,False,False
+Category,object,False,False,False
+Purchase Amount (USD),int64,False,False,False
+Location,object,False,False,False
+Size,object,False,False,False
+Color,object,False,False,False
+Season,object,False,False,False
+Review Rating,float64,False,False,False
+Subscription Status,object,False,False,False
+Discount Applied,object,False,False,False
+Previous Purchases,int64,False,False,False
+Payment Method,object,False,False,False
+Frequency of Purchases,object,False,False,False

@@ -1,0 +1,10 @@
+STAGE1 START HERE
+Dataset: dataset.csv
+Stage1 dataset: D:\data\dataset_for_stage_1.csv
+Raw rows: 3900
+Stage1 rows: 3900
+Raw columns: 16
+Stage1 columns: 16
+Possible targets: ['Subscription Status']
+Risk columns count: 4
+Read JSON: D:\data\stage0-launch-pad\24_stage0_total_intelligence\stage0_total_intelligence.json

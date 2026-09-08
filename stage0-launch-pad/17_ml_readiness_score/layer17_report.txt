@@ -1,0 +1,25 @@
+LAYER 17: ML READINESS SCORE
+===================================
+
+Created On: 2026-09-08 21:10:00.818383
+Dataset Name: dataset.csv
+Dataset Path: D:\data\dataset.csv
+Rows: 3900
+Columns: 16
+ML Readiness Score: 90
+Readiness Status: GOOD_FOR_NEXT_STAGE
+
+Issues:
+['Possible PII columns found']
+
+Possible Target Columns:
+['Subscription Status']
+
+Possible PII Columns:
+['Customer ID']
+
+Files Created:
+1. D:\data\stage0-launch-pad\17_ml_readiness_score\ml_readiness_score.csv
+2. D:\data\stage0-launch-pad\17_ml_readiness_score\layer17_summary.json
+
+Next Action: Run Layer 18 - Possible ML Problem Definitions.

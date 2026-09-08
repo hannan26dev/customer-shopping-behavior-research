@@ -1,0 +1,17 @@
+column_index,column_name,target_score,possible_ml_type,missing_percentage,unique_values,reason
+11,Subscription Status,9,Classification,0.0,2,acceptable missing percentage; classification target possible; target-like column name
+2,Gender,5,Classification,0.0,2,acceptable missing percentage; classification target possible
+3,Item Purchased,5,Classification,0.0,25,acceptable missing percentage; classification target possible
+4,Category,5,Classification,0.0,4,acceptable missing percentage; classification target possible
+7,Size,5,Classification,0.0,4,acceptable missing percentage; classification target possible
+8,Color,5,Classification,0.0,25,acceptable missing percentage; classification target possible
+9,Season,5,Classification,0.0,4,acceptable missing percentage; classification target possible
+10,Review Rating,5,Classification,0.0,26,acceptable missing percentage; classification target possible
+12,Discount Applied,5,Classification,0.0,2,acceptable missing percentage; classification target possible
+14,Payment Method,5,Classification,0.0,6,acceptable missing percentage; classification target possible
+15,Frequency of Purchases,5,Classification,0.0,7,acceptable missing percentage; classification target possible
+1,Age,4,Regression,0.0,53,acceptable missing percentage; regression target possible
+5,Purchase Amount (USD),4,Regression,0.0,81,acceptable missing percentage; regression target possible
+13,Previous Purchases,4,Regression,0.0,50,acceptable missing percentage; regression target possible
+6,Location,2,Needs Review,0.0,50,acceptable missing percentage
+0,Customer ID,-4,Regression,0.0,3900,acceptable missing percentage; regression target possible; PII/identifier is not suitable as target

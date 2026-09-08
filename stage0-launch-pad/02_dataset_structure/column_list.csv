@@ -1,0 +1,17 @@
+column_name,dtype,non_null_count,null_count,missing_percentage,unique_values,unique_percentage,is_numeric,is_object_text,is_date_like,numeric_stored_as_text,is_id_like,is_possible_pii,sample_values
+Customer ID,int64,3900,0,0.0,3900,100.0,True,False,False,False,True,True,1 | 2 | 3 | 4 | 5
+Age,int64,3900,0,0.0,53,1.359,True,False,False,False,False,False,55 | 19 | 50 | 21 | 45
+Gender,object,3900,0,0.0,2,0.0513,False,True,False,False,False,False,Male | Male | Male | Male | Male
+Item Purchased,object,3900,0,0.0,25,0.641,False,True,False,False,False,False,Blouse | Sweater | Jeans | Sandals | Blouse
+Category,object,3900,0,0.0,4,0.1026,False,True,False,False,False,False,Clothing | Clothing | Clothing | Footwear | Clothing
+Purchase Amount (USD),int64,3900,0,0.0,81,2.0769,True,False,False,False,False,False,53 | 64 | 73 | 90 | 49
+Location,object,3900,0,0.0,50,1.2821,False,True,False,False,False,False,Kentucky | Maine | Massachusetts | Rhode Island | Oregon
+Size,object,3900,0,0.0,4,0.1026,False,True,False,False,False,False,L | L | S | M | M
+Color,object,3900,0,0.0,25,0.641,False,True,False,False,False,False,Gray | Maroon | Maroon | Maroon | Turquoise
+Season,object,3900,0,0.0,4,0.1026,False,True,False,False,False,False,Winter | Winter | Spring | Spring | Spring
+Review Rating,float64,3900,0,0.0,26,0.6667,True,False,False,False,False,False,3.1 | 3.1 | 3.1 | 3.5 | 2.7
+Subscription Status,object,3900,0,0.0,2,0.0513,False,True,False,False,False,False,Yes | Yes | Yes | Yes | Yes
+Discount Applied,object,3900,0,0.0,2,0.0513,False,True,False,False,False,False,Yes | Yes | Yes | Yes | Yes
+Previous Purchases,int64,3900,0,0.0,50,1.2821,True,False,False,False,False,False,14 | 2 | 23 | 49 | 31
+Payment Method,object,3900,0,0.0,6,0.1538,False,True,False,False,False,False,Venmo | Cash | Credit Card | PayPal | PayPal
+Frequency of Purchases,object,3900,0,0.0,7,0.1795,False,True,False,False,False,False,Fortnightly | Fortnightly | Weekly | Weekly | Annually

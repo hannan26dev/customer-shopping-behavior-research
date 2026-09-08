@@ -1,0 +1,17 @@
+original_column,stage1_column,changed
+Customer ID,customer_id,True
+Age,age,True
+Gender,gender,True
+Item Purchased,item_purchased,True
+Category,category,True
+Purchase Amount (USD),purchase_amount_usd,True
+Location,location,True
+Size,size,True
+Color,color,True
+Season,season,True
+Review Rating,review_rating,True
+Subscription Status,subscription_status,True
+Discount Applied,discount_applied,True
+Previous Purchases,previous_purchases,True
+Payment Method,payment_method,True
+Frequency of Purchases,frequency_of_purchases,True

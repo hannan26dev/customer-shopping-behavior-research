@@ -1,0 +1,11 @@
+LAYER 18: ML PROBLEM DEFINITIONS
+================================
+Created On: 2026-09-08 21:10:02.147070
+Dataset Name: dataset.csv
+Rows: 3900
+Columns: 16
+Possible Targets: ['Subscription Status']
+Files:
+D:\data\stage0-launch-pad\18_ml_problem_definitions\ml_problem_definitions.csv
+D:\data\stage0-launch-pad\18_ml_problem_definitions\layer18_summary.json
+Next: Layer 19 - Research Recommendations

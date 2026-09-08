@@ -1,0 +1,17 @@
+column_index,column_name,dtype,missing_percentage,unique_values,possible_date,feature_usability,feature_usability_score,reason
+1,Age,int64,0.0,53,False,Good Candidate Feature,100,no major automatic usability issue detected
+2,Gender,object,0.0,2,False,Good Candidate Feature,100,no major automatic usability issue detected
+3,Item Purchased,object,0.0,25,False,Good Candidate Feature,100,no major automatic usability issue detected
+4,Category,object,0.0,4,False,Good Candidate Feature,100,no major automatic usability issue detected
+5,Purchase Amount (USD),int64,0.0,81,False,Good Candidate Feature,100,no major automatic usability issue detected
+6,Location,object,0.0,50,False,Good Candidate Feature,100,no major automatic usability issue detected
+7,Size,object,0.0,4,False,Good Candidate Feature,100,no major automatic usability issue detected
+8,Color,object,0.0,25,False,Good Candidate Feature,100,no major automatic usability issue detected
+9,Season,object,0.0,4,False,Good Candidate Feature,100,no major automatic usability issue detected
+10,Review Rating,float64,0.0,26,False,Good Candidate Feature,100,no major automatic usability issue detected
+12,Discount Applied,object,0.0,2,False,Good Candidate Feature,100,no major automatic usability issue detected
+13,Previous Purchases,int64,0.0,50,False,Good Candidate Feature,100,no major automatic usability issue detected
+15,Frequency of Purchases,object,0.0,7,False,Good Candidate Feature,100,no major automatic usability issue detected
+11,Subscription Status,object,0.0,2,False,Use With Review,60,possible leakage-risk column
+14,Payment Method,object,0.0,6,False,Use With Review,60,possible leakage-risk column
+0,Customer ID,int64,0.0,3900,False,Weak or Risky Feature,30,PII or identifier risk

@@ -1,0 +1,33 @@
+
+DELIMITER AND STRUCTURE AUDIT
+==================================================
+
+File Extension:
+.csv
+
+Total Lines:
+3901
+
+Empty Lines:
+0
+
+Whitespace-Only Lines:
+0
+
+Very Long Lines:
+0
+
+Guessed Delimiter:
+,
+
+Delimiter Counts:
+{'comma': 750, 'semicolon': 0, 'tab': 0, 'pipe': 0}
+
+Expected Columns From Header:
+16
+
+Broken Rows Count:
+0
+
+Broken Rows Report:
+D:\data\stage0-launch-pad\01_raw_file_rescue\broken_rows_report.csv

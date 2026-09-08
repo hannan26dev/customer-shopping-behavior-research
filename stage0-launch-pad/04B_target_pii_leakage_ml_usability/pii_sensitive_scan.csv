@@ -1,0 +1,17 @@
+column_index,column_name,possible_pii,possible_sensitive,manual_review_required
+0,Customer ID,True,False,True
+1,Age,False,True,True
+2,Gender,False,True,True
+3,Item Purchased,False,False,False
+4,Category,False,False,False
+5,Purchase Amount (USD),False,False,False
+6,Location,False,False,False
+7,Size,False,False,False
+8,Color,False,False,False
+9,Season,False,False,False
+10,Review Rating,False,False,False
+11,Subscription Status,False,False,False
+12,Discount Applied,False,False,False
+13,Previous Purchases,False,False,False
+14,Payment Method,False,False,False
+15,Frequency of Purchases,False,False,False

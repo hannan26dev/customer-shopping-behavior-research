@@ -1,0 +1,17 @@
+column_index,column_name,possible_leakage,warning
+0,Customer ID,False,
+1,Age,False,
+2,Gender,False,
+3,Item Purchased,False,
+4,Category,False,
+5,Purchase Amount (USD),False,
+6,Location,False,
+7,Size,False,
+8,Color,False,
+9,Season,False,
+10,Review Rating,False,
+11,Subscription Status,True,Review before using as input feature
+12,Discount Applied,False,
+13,Previous Purchases,False,
+14,Payment Method,True,Review before using as input feature
+15,Frequency of Purchases,False,

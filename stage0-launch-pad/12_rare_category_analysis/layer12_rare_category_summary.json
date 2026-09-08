@@ -1,0 +1,22 @@
+{
+    "stage": "Layer 12 - Rare Category Analysis",
+    "created_on": "2026-09-08 21:09:52.109367",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 3900,
+    "columns": 16,
+    "categorical_columns_count": 11,
+    "columns_with_rare_categories": [],
+    "rare_category_threshold": "less than 1%",
+    "layer_status": "PASS",
+    "warnings": [],
+    "recommendations": [
+        "No rare category issue detected automatically."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\12_rare_category_analysis\\layer12_rare_category_report.txt",
+        "rare_category_csv": "D:\\data\\stage0-launch-pad\\12_rare_category_analysis\\rare_category_report.csv",
+        "summary_json": "D:\\data\\stage0-launch-pad\\12_rare_category_analysis\\layer12_rare_category_summary.json"
+    },
+    "next_action": "Run Layer 13 - Metadata Generator"
+}

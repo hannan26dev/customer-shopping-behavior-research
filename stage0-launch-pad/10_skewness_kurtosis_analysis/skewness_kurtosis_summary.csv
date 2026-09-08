@@ -1,0 +1,6 @@
+column_name,skewness,kurtosis,skewness_interpretation,kurtosis_interpretation
+Customer ID,0.0,-1.2,Approximately symmetric,Light-tailed distribution
+Age,-0.00638,-1.195087,Approximately symmetric,Light-tailed distribution
+Purchase Amount (USD),0.012702,-1.236594,Approximately symmetric,Light-tailed distribution
+Review Rating,0.004525,-1.179628,Approximately symmetric,Light-tailed distribution
+Previous Purchases,0.003121,-1.190187,Approximately symmetric,Light-tailed distribution

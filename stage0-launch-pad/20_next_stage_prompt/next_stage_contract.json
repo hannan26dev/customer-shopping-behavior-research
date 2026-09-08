@@ -1,0 +1,35 @@
+{
+    "stage": "Layer 20 - Next Stage Prompt Generator",
+    "created_on": "2026-09-08 21:10:05.799288",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 3900,
+    "columns": 16,
+    "numeric_columns": [
+        "Customer ID",
+        "Age",
+        "Purchase Amount (USD)",
+        "Review Rating",
+        "Previous Purchases"
+    ],
+    "categorical_columns": [
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Subscription Status",
+        "Discount Applied",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "possible_targets": [
+        "Subscription Status"
+    ],
+    "missing_percentage": 0.0,
+    "duplicate_rows": 0,
+    "prompt_file": "D:\\data\\stage0-launch-pad\\20_next_stage_prompt\\next_stage_ml_prompt.txt",
+    "next_action": "Layer 21 - Final Stage0 Summary"
+}

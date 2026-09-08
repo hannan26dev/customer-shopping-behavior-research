@@ -1,0 +1,23 @@
+NEXT STAGE ML PROMPT
+Dataset: dataset.csv
+Path: D:\data\dataset.csv
+Rows: 3900
+Columns: 16
+Numeric columns: ['Customer ID', 'Age', 'Purchase Amount (USD)', 'Review Rating', 'Previous Purchases']
+Categorical columns: ['Gender', 'Item Purchased', 'Category', 'Location', 'Size', 'Color', 'Season', 'Subscription Status', 'Discount Applied', 'Payment Method', 'Frequency of Purchases']
+Possible targets: ['Subscription Status']
+Missing percentage: 0.0
+Duplicate rows: 0
+
+Tasks for next stage:
+1. Read Stage0 reports.
+2. Confirm target column.
+3. Check PII and leakage columns.
+4. Define ML problem.
+5. Recommend cleaning plan.
+6. Recommend feature plan.
+7. Recommend models and metrics.
+
+Rules:
+Do not modify raw data.
+Do not train model before target confirmation.

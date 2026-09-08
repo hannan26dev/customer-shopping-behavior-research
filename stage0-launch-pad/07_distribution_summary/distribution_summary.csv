@@ -1,0 +1,17 @@
+column_name,dtype,total_rows,non_missing_count,missing_count,missing_percentage,unique_values,unique_percentage,dominant_value,dominant_count,dominant_percentage,is_numeric,is_constant,is_binary,is_low_cardinality,is_high_cardinality,is_dominated_by_one_value
+Customer ID,int64,3900,3900,0,0.0,3900,100.0,1,1,0.0256,True,False,False,False,True,False
+Age,int64,3900,3900,0,0.0,53,1.359,69,88,2.2564,True,False,False,False,True,False
+Gender,object,3900,3900,0,0.0,2,0.0513,Male,2652,68.0,False,False,True,True,False,False
+Item Purchased,object,3900,3900,0,0.0,25,0.641,Blouse,171,4.3846,False,False,False,False,False,False
+Category,object,3900,3900,0,0.0,4,0.1026,Clothing,1737,44.5385,False,False,False,True,False,False
+Purchase Amount (USD),int64,3900,3900,0,0.0,81,2.0769,94,62,1.5897,True,False,False,False,True,False
+Location,object,3900,3900,0,0.0,50,1.2821,Montana,96,2.4615,False,False,False,False,False,False
+Size,object,3900,3900,0,0.0,4,0.1026,M,1755,45.0,False,False,False,True,False,False
+Color,object,3900,3900,0,0.0,25,0.641,Olive,177,4.5385,False,False,False,False,False,False
+Season,object,3900,3900,0,0.0,4,0.1026,Spring,999,25.6154,False,False,False,True,False,False
+Review Rating,float64,3900,3900,0,0.0,26,0.6667,3.4,182,4.6667,True,False,False,False,False,False
+Subscription Status,object,3900,3900,0,0.0,2,0.0513,No,2847,73.0,False,False,True,True,False,False
+Discount Applied,object,3900,3900,0,0.0,2,0.0513,No,2223,57.0,False,False,True,True,False,False
+Previous Purchases,int64,3900,3900,0,0.0,50,1.2821,31,97,2.4872,True,False,False,False,False,False
+Payment Method,object,3900,3900,0,0.0,6,0.1538,PayPal,677,17.359,False,False,False,True,False,False
+Frequency of Purchases,object,3900,3900,0,0.0,7,0.1795,Every 3 Months,584,14.9744,False,False,False,True,False,False

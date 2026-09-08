@@ -1,0 +1,15 @@
+{
+    "stage": "Layer 19 - Research Recommendations",
+    "created_on": "2026-09-08 21:10:03.467759",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 3900,
+    "columns": 16,
+    "numeric_columns_count": 5,
+    "categorical_columns_count": 11,
+    "possible_target_columns": [
+        "Subscription Status"
+    ],
+    "date_columns": [],
+    "next_action": "Run Layer 20 - Next Stage Prompt Generator"
+}

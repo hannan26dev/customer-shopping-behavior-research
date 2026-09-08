@@ -1,0 +1,19 @@
+COLUMN NAMES
+==================================================
+
+1. Customer ID
+2. Age
+3. Gender
+4. Item Purchased
+5. Category
+6. Purchase Amount (USD)
+7. Location
+8. Size
+9. Color
+10. Season
+11. Review Rating
+12. Subscription Status
+13. Discount Applied
+14. Previous Purchases
+15. Payment Method
+16. Frequency of Purchases

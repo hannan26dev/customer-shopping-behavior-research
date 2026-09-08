@@ -1,0 +1,16 @@
+LAYER 21: FINAL STAGE0 SUMMARY
+===================================
+Created On: 2026-09-08 21:10:07.855452
+Dataset: dataset.csv
+Path: D:\data\dataset.csv
+Rows: 3900
+Columns: 16
+Numeric Columns: 5
+Categorical Columns: 11
+Stage0 Files Created: 106
+
+Important Next File:
+D:\data\stage0-launch-pad\20_next_stage_prompt\next_stage_ml_prompt.txt
+
+Stage0 Status: Completed
+Next: Start ML problem definition stage.

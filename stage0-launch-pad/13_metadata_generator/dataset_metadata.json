@@ -1,0 +1,35 @@
+{
+    "stage": "Layer 13 - Metadata Generator",
+    "created_on": "2026-09-08 21:09:54.421683",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 3900,
+    "columns": 16,
+    "column_names": [
+        "Customer ID",
+        "Age",
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Purchase Amount (USD)",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Review Rating",
+        "Subscription Status",
+        "Discount Applied",
+        "Previous Purchases",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "metadata_status": "Auto-generated draft; user/domain expert confirmation required.",
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\13_metadata_generator\\layer13_metadata_report.txt",
+        "metadata_json": "D:\\data\\stage0-launch-pad\\13_metadata_generator\\dataset_metadata.json",
+        "metadata_questions_txt": "D:\\data\\stage0-launch-pad\\13_metadata_generator\\metadata_questions_for_user.txt",
+        "data_dictionary_csv": "D:\\data\\stage0-launch-pad\\13_metadata_generator\\data_dictionary_template.csv",
+        "datasheet_txt": "D:\\data\\stage0-launch-pad\\13_metadata_generator\\dataset_datasheet_draft.txt"
+    },
+    "next_action": "Run Layer 14 - Data Dictionary and Datasheet Review"
+}

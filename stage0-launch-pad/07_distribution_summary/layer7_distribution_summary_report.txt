@@ -1,0 +1,69 @@
+
+LAYER 7: DISTRIBUTION SUMMARY REPORT
+==================================================
+
+Created On:
+2026-09-08 21:09:38.990397
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Layer Status:
+REVIEW_RECOMMENDED
+
+Rows:
+3900
+
+Columns:
+16
+
+Constant Columns:
+[]
+
+Binary Columns:
+['Gender', 'Subscription Status', 'Discount Applied']
+
+Low-Cardinality Columns:
+['Gender', 'Category', 'Size', 'Season', 'Subscription Status', 'Discount Applied', 'Payment Method', 'Frequency of Purchases']
+
+High-Cardinality Columns:
+['Customer ID', 'Age', 'Purchase Amount (USD)']
+
+Dominated Columns, 80%+:
+[]
+
+Strengths:
+['Binary columns are available and may support classification or flag features.', 'Low-cardinality columns are available for grouping or classification analysis.']
+
+Warnings:
+['High-cardinality columns found; encoding review may be needed.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\07_distribution_summary\layer7_distribution_summary_report.txt
+2. D:\data\stage0-launch-pad\07_distribution_summary\distribution_summary.csv
+3. D:\data\stage0-launch-pad\07_distribution_summary\dominant_value_report.csv
+4. D:\data\stage0-launch-pad\07_distribution_summary\layer7_distribution_summary.json
+5. D:\data\stage0-launch-pad\07_distribution_summary\layer7_distribution_summary.xml
+
+Meaning:
+Layer 7 studies the distribution pattern of every column.
+
+It checks:
+1. Missing percentage
+2. Unique values
+3. Dominant value
+4. Constant columns
+5. Binary columns
+6. Low-cardinality columns
+7. High-cardinality columns
+8. Columns dominated by one value
+
+Important:
+This layer does not calculate correlation or outliers.
+Those will be handled in later smaller layers.
+
+Next Action:
+Run Layer 8 - Correlation Analysis.

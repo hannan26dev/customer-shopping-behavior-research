@@ -1,0 +1,4 @@
+possible_target,problem_type,reason,recommended_metrics
+Subscription Status,Classification,Target-like column with limited classes,"F1, Recall, Precision, Accuracy"
+No target,Clustering,Numeric columns available,Silhouette score
+No target,Anomaly Detection,Numeric columns available,Domain validation

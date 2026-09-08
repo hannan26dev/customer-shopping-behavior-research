@@ -1,0 +1,6 @@
+column_name,q1,q3,iqr,lower_bound,upper_bound,outlier_count,outlier_percentage
+Customer ID,975.75,2925.25,1949.5,-1948.5,5849.5,0,0.0
+Age,31.0,57.0,26.0,-8.0,96.0,0,0.0
+Purchase Amount (USD),39.0,81.0,42.0,-24.0,144.0,0,0.0
+Review Rating,3.1,4.4,1.3000000000000003,1.1499999999999997,6.3500000000000005,0,0.0
+Previous Purchases,13.0,38.0,25.0,-24.5,75.5,0,0.0

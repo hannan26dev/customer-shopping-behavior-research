@@ -1,0 +1,12 @@
+column_name,leading_trailing_space_count,multiple_space_count,replacement_character_count,strange_character_count,original_unique_values,case_normalized_unique_values,possible_case_inconsistency
+Gender,0,0,0,0,2,2,False
+Item Purchased,0,0,0,0,25,25,False
+Category,0,0,0,0,4,4,False
+Location,0,0,0,0,50,50,False
+Size,0,0,0,0,4,4,False
+Color,0,0,0,0,25,25,False
+Season,0,0,0,0,4,4,False
+Subscription Status,0,0,0,0,2,2,False
+Discount Applied,0,0,0,0,2,2,False
+Payment Method,0,0,0,0,6,6,False
+Frequency of Purchases,0,0,0,0,7,7,False

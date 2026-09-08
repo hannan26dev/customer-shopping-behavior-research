@@ -1,0 +1,5 @@
+research_area,possible_research_question,focus_column,suggested_method,limitation
+Predictive Modeling,Can we predict Subscription Status using available features?,Subscription Status,Classification or regression,Needs target and leakage confirmation
+Statistical Relationship,Which numeric variables have strong relationships?,Numeric columns,Correlation and regression analysis,Correlation does not prove causation
+Patient / Record Segmentation,Can records be grouped into meaningful clusters?,No target required,Clustering,Clusters need domain interpretation
+Category Pattern Analysis,Which categories appear most often and how do they differ?,Categorical columns,Frequency and group comparison,Category meanings must be confirmed

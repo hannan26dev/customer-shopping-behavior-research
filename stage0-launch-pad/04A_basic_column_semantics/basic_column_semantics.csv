@@ -1,0 +1,17 @@
+column_index,column_name,dtype,basic_semantic_role,non_missing_count,missing_count,missing_percentage,unique_values,unique_percentage,sample_values
+0,Customer ID,int64,Possible Identifier Column,3900,0,0.0,3900,100.0,1 | 2 | 3 | 4 | 5
+1,Age,int64,Numeric Column,3900,0,0.0,53,1.359,55 | 19 | 50 | 21 | 45
+2,Gender,object,Binary Categorical Column,3900,0,0.0,2,0.0513,Male | Male | Male | Male | Male
+3,Item Purchased,object,Categorical Column,3900,0,0.0,25,0.641,Blouse | Sweater | Jeans | Sandals | Blouse
+4,Category,object,Categorical Column,3900,0,0.0,4,0.1026,Clothing | Clothing | Clothing | Footwear | Clothing
+5,Purchase Amount (USD),int64,Numeric Column,3900,0,0.0,81,2.0769,53 | 64 | 73 | 90 | 49
+6,Location,object,High Cardinality Categorical Column,3900,0,0.0,50,1.2821,Kentucky | Maine | Massachusetts | Rhode Island | Oregon
+7,Size,object,Categorical Column,3900,0,0.0,4,0.1026,L | L | S | M | M
+8,Color,object,Categorical Column,3900,0,0.0,25,0.641,Gray | Maroon | Maroon | Maroon | Turquoise
+9,Season,object,Categorical Column,3900,0,0.0,4,0.1026,Winter | Winter | Spring | Spring | Spring
+10,Review Rating,float64,Numeric Column,3900,0,0.0,26,0.6667,3.1 | 3.1 | 3.1 | 3.5 | 2.7
+11,Subscription Status,object,Binary Categorical Column,3900,0,0.0,2,0.0513,Yes | Yes | Yes | Yes | Yes
+12,Discount Applied,object,Binary Categorical Column,3900,0,0.0,2,0.0513,Yes | Yes | Yes | Yes | Yes
+13,Previous Purchases,int64,Numeric Column,3900,0,0.0,50,1.2821,14 | 2 | 23 | 49 | 31
+14,Payment Method,object,Categorical Column,3900,0,0.0,6,0.1538,Venmo | Cash | Credit Card | PayPal | PayPal
+15,Frequency of Purchases,object,Categorical Column,3900,0,0.0,7,0.1795,Fortnightly | Fortnightly | Weekly | Weekly | Annually

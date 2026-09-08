@@ -1,0 +1,32 @@
+column_name,class_value,count,percentage,column_unique_values,majority_class_percentage,minority_class_percentage,balance_status
+Gender,Male,2652,68.0,2,68.0,32.0,Acceptable
+Gender,Female,1248,32.0,2,68.0,32.0,Acceptable
+Category,Clothing,1737,44.5385,4,44.5385,8.3077,Acceptable
+Category,Accessories,1240,31.7949,4,44.5385,8.3077,Acceptable
+Category,Footwear,599,15.359,4,44.5385,8.3077,Acceptable
+Category,Outerwear,324,8.3077,4,44.5385,8.3077,Acceptable
+Size,M,1755,45.0,4,45.0,11.0,Acceptable
+Size,L,1053,27.0,4,45.0,11.0,Acceptable
+Size,S,663,17.0,4,45.0,11.0,Acceptable
+Size,XL,429,11.0,4,45.0,11.0,Acceptable
+Season,Spring,999,25.6154,4,25.6154,24.4872,Acceptable
+Season,Fall,975,25.0,4,25.6154,24.4872,Acceptable
+Season,Winter,971,24.8974,4,25.6154,24.4872,Acceptable
+Season,Summer,955,24.4872,4,25.6154,24.4872,Acceptable
+Subscription Status,No,2847,73.0,2,73.0,27.0,Acceptable
+Subscription Status,Yes,1053,27.0,2,73.0,27.0,Acceptable
+Discount Applied,No,2223,57.0,2,57.0,43.0,Acceptable
+Discount Applied,Yes,1677,43.0,2,57.0,43.0,Acceptable
+Payment Method,PayPal,677,17.359,6,17.359,15.6923,Acceptable
+Payment Method,Credit Card,671,17.2051,6,17.359,15.6923,Acceptable
+Payment Method,Cash,670,17.1795,6,17.359,15.6923,Acceptable
+Payment Method,Debit Card,636,16.3077,6,17.359,15.6923,Acceptable
+Payment Method,Venmo,634,16.2564,6,17.359,15.6923,Acceptable
+Payment Method,Bank Transfer,612,15.6923,6,17.359,15.6923,Acceptable
+Frequency of Purchases,Every 3 Months,584,14.9744,7,14.9744,13.8205,Acceptable
+Frequency of Purchases,Annually,572,14.6667,7,14.9744,13.8205,Acceptable
+Frequency of Purchases,Quarterly,563,14.4359,7,14.9744,13.8205,Acceptable
+Frequency of Purchases,Monthly,553,14.1795,7,14.9744,13.8205,Acceptable
+Frequency of Purchases,Bi-Weekly,547,14.0256,7,14.9744,13.8205,Acceptable
+Frequency of Purchases,Fortnightly,542,13.8974,7,14.9744,13.8205,Acceptable
+Frequency of Purchases,Weekly,539,13.8205,7,14.9744,13.8205,Acceptable

@@ -1,0 +1,17 @@
+column_name,dtype,suggestion_type,suggestion,priority
+Customer ID,int64,Numeric,"Consider scaling, binning, missing flag, outlier review.",Medium
+Age,int64,Numeric,"Consider scaling, binning, missing flag, outlier review.",Medium
+Gender,object,Categorical,Consider one-hot encoding or label encoding.,High
+Item Purchased,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+Category,object,Categorical,Consider one-hot encoding or label encoding.,High
+Purchase Amount (USD),int64,Numeric,"Consider scaling, binning, missing flag, outlier review.",Medium
+Location,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+Size,object,Categorical,Consider one-hot encoding or label encoding.,High
+Color,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+Season,object,Categorical,Consider one-hot encoding or label encoding.,High
+Review Rating,float64,Numeric,"Consider scaling, binning, missing flag, outlier review.",Medium
+Subscription Status,object,Categorical,Consider one-hot encoding or label encoding.,High
+Discount Applied,object,Categorical,Consider one-hot encoding or label encoding.,High
+Previous Purchases,int64,Numeric,"Consider scaling, binning, missing flag, outlier review.",Medium
+Payment Method,object,Categorical,Consider one-hot encoding or label encoding.,High
+Frequency of Purchases,object,Categorical,Consider one-hot encoding or label encoding.,High

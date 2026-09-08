@@ -1,0 +1,2 @@
+dataset_name,rows,columns,ml_readiness_score,readiness_status,missing_percentage,duplicate_rows,duplicate_percentage,numeric_columns_count,categorical_columns_count,fully_null_columns,constant_columns,possible_target_columns,possible_pii_columns,issues
+dataset.csv,3900,16,90,GOOD_FOR_NEXT_STAGE,0.0,0,0.0,5,11,[],[],['Subscription Status'],['Customer ID'],['Possible PII columns found']

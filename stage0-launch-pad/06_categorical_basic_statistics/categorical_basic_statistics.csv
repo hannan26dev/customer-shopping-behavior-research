@@ -1,0 +1,12 @@
+column_name,dtype,count,missing_count,missing_percentage,unique_values,top_value,top_value_count,top_value_percentage,sample_values,is_low_cardinality,is_high_cardinality,is_constant
+Gender,object,3900,0,0.0,2,Male,2652,68.0,Male | Male | Male | Male | Male,True,False,False
+Item Purchased,object,3900,0,0.0,25,Blouse,171,4.3846,Blouse | Sweater | Jeans | Sandals | Blouse,False,False,False
+Category,object,3900,0,0.0,4,Clothing,1737,44.5385,Clothing | Clothing | Clothing | Footwear | Clothing,True,False,False
+Location,object,3900,0,0.0,50,Montana,96,2.4615,Kentucky | Maine | Massachusetts | Rhode Island | Oregon,False,False,False
+Size,object,3900,0,0.0,4,M,1755,45.0,L | L | S | M | M,True,False,False
+Color,object,3900,0,0.0,25,Olive,177,4.5385,Gray | Maroon | Maroon | Maroon | Turquoise,False,False,False
+Season,object,3900,0,0.0,4,Spring,999,25.6154,Winter | Winter | Spring | Spring | Spring,True,False,False
+Subscription Status,object,3900,0,0.0,2,No,2847,73.0,Yes | Yes | Yes | Yes | Yes,True,False,False
+Discount Applied,object,3900,0,0.0,2,No,2223,57.0,Yes | Yes | Yes | Yes | Yes,True,False,False
+Payment Method,object,3900,0,0.0,6,PayPal,677,17.359,Venmo | Cash | Credit Card | PayPal | PayPal,True,False,False
+Frequency of Purchases,object,3900,0,0.0,7,Every 3 Months,584,14.9744,Fortnightly | Fortnightly | Weekly | Weekly | Annually,True,False,False

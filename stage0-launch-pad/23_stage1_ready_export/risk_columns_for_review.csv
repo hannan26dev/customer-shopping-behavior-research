@@ -1,0 +1,5 @@
+column_name,risk_type,action
+customer_id,possible_id,review_before_ml
+age,possible_sensitive,review_before_ml
+gender,possible_sensitive,review_before_ml
+subscription_status,possible_target_or_leakage,review_before_ml

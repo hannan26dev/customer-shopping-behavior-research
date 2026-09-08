@@ -1,0 +1,2 @@
+user_goal,user_direction,user_target,system_validation,evidence,next_action
+Prediction,Prediction,subscription_status,needs_review,Selected target has risk flag: possible_target_or_leakage,Ask user to reconfirm before Stage2.

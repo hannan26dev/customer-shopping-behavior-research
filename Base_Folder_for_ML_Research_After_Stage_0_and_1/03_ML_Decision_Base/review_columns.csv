@@ -1,0 +1,14 @@
+review_column
+customer_id
+age
+gender
+item_purchased
+category
+location
+size
+color
+season
+subscription_status
+discount_applied
+payment_method
+frequency_of_purchases

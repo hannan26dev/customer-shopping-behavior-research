@@ -1,0 +1,1 @@
+column_name,dtype,missing_percentage,unique_values,is_numeric,risk_type,stage1_use_decision,feature_score,target_score,risk_score,recommended_use,confidence,reason,requires_user_confirmation

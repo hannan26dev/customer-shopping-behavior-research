@@ -1,0 +1,17 @@
+column_name,dtype,missing_percentage,unique_values,is_numeric,risk_type,stage1_use_decision,feature_score,target_score,risk_score,recommended_use,confidence,reason,requires_user_confirmation
+customer_id,int64,0.0,3900,True,possible_id,Review or exclude,27,0,60,review_before_use,medium,numeric; missing_0.0%; unique_3900; risk_possible_id,yes
+age,int64,0.0,53,True,possible_sensitive,Review or exclude,27,0,60,review_before_use,medium,numeric; missing_0.0%; unique_53; risk_possible_sensitive,yes
+gender,object,0.0,2,False,possible_sensitive,Review or exclude,23,0,60,review_before_use,medium,non_numeric; missing_0.0%; unique_2; risk_possible_sensitive,yes
+item_purchased,object,0.0,25,False,,Use as feature,58,20,0,review_before_use,medium,non_numeric; missing_0.0%; unique_25,yes
+category,object,0.0,4,False,,Use as feature,58,20,0,review_before_use,medium,non_numeric; missing_0.0%; unique_4,yes
+purchase_amount_usd,int64,0.0,81,True,,Use as feature,62,15,0,use_as_feature,medium,numeric; missing_0.0%; unique_81,no
+location,object,0.0,50,False,,Use as feature,50,0,0,review_before_use,medium,non_numeric; missing_0.0%; unique_50,yes
+size,object,0.0,4,False,,Use as feature,58,20,0,review_before_use,medium,non_numeric; missing_0.0%; unique_4,yes
+color,object,0.0,25,False,,Use as feature,58,20,0,review_before_use,medium,non_numeric; missing_0.0%; unique_25,yes
+season,object,0.0,4,False,,Use as feature,58,20,0,review_before_use,medium,non_numeric; missing_0.0%; unique_4,yes
+review_rating,float64,0.0,26,True,,Use as feature,70,20,0,use_as_feature,medium,numeric; missing_0.0%; unique_26,no
+subscription_status,object,0.0,2,False,possible_target_or_leakage,Use as target after final confirmation,23,45,60,review_before_use,medium,non_numeric; missing_0.0%; unique_2; risk_possible_target_or_leakage; target_candidate,yes
+discount_applied,object,0.0,2,False,,Use as feature,58,20,0,review_before_use,medium,non_numeric; missing_0.0%; unique_2,yes
+previous_purchases,int64,0.0,50,True,,Use as feature,62,15,0,use_as_feature,medium,numeric; missing_0.0%; unique_50,no
+payment_method,object,0.0,6,False,,Use as feature,58,20,0,review_before_use,medium,non_numeric; missing_0.0%; unique_6,yes
+frequency_of_purchases,object,0.0,7,False,,Use as feature,58,20,0,review_before_use,medium,non_numeric; missing_0.0%; unique_7,yes

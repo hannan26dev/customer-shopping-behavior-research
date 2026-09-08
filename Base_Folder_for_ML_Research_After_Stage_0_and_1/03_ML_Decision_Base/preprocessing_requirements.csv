@@ -1,0 +1,13 @@
+column_name,dtype,missing_percentage,unique_values,preprocessing_need
+item_purchased,object,0.0,25,Impute if missing; encode categorical values.
+category,object,0.0,4,Impute if missing; encode categorical values.
+purchase_amount_usd,int64,0.0,81,Impute if missing; scale if model needs it.
+location,object,0.0,50,Review high cardinality; group or encode carefully.
+size,object,0.0,4,Impute if missing; encode categorical values.
+color,object,0.0,25,Impute if missing; encode categorical values.
+season,object,0.0,4,Impute if missing; encode categorical values.
+review_rating,float64,0.0,26,Impute if missing; scale if model needs it.
+discount_applied,object,0.0,2,Impute if missing; encode categorical values.
+previous_purchases,int64,0.0,50,Impute if missing; scale if model needs it.
+payment_method,object,0.0,6,Impute if missing; encode categorical values.
+frequency_of_purchases,object,0.0,7,Impute if missing; encode categorical values.

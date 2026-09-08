@@ -1,0 +1,6 @@
+evidence_type,column_name,evidence_value,inference,severity,ml_impact,recommended_action
+risk_column,customer_id,possible_id,review before ML,high,high,exclude or clear by user
+risk_column,age,possible_sensitive,review before ML,high,high,exclude or clear by user
+risk_column,gender,possible_sensitive,review before ML,high,high,exclude or clear by user
+risk_column,subscription_status,possible_target_or_leakage,review before ML,high,high,exclude or clear by user
+target_candidate,subscription_status,name/shape suggests target,possible supervised ML,medium,medium,confirm target

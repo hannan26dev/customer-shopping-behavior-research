@@ -1,0 +1,18 @@
+MASTER GUIDELINE FOR DATASET UNDERSTANDING
+Dataset: dataset.csv
+Rows: 3900
+Columns: 16
+Numeric columns: 5
+Categorical columns: 11
+Average missing percentage: 0.0
+Duplicate rows: 0
+Best directions: ['Prediction', 'Classification', 'Reporting / Dashboard']
+Stage2 status: CONDITIONAL_GO
+System target candidate: subscription_status
+Allowed features: 3
+Review columns: 13
+Excluded columns: 0
+Main blockers: ['Some columns require review.', 'Supervised direction needs confirmed target.', 'User preference needs reconfirmation.']
+Rule: Dataset facts and statistical evidence have higher weight than user preference.
+Rule: User should reconfirm target and columns before Stage2 modeling.
+This folder is designed to work independently of Stage0 and Stage1 folders.

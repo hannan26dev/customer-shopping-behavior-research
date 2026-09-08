@@ -1,0 +1,16 @@
+{
+    "stage": "Stage 1 Module 5 - Target and Column Use Decision",
+    "created_on": "2026-09-08 21:57:00.012520",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 3900,
+    "columns": 16,
+    "preferred_target_from_user": "subscription_status",
+    "forbidden_columns_from_user": [
+        "none"
+    ],
+    "risk_columns_count": 4,
+    "feature_columns_count": 12,
+    "review_columns_count": 3,
+    "excluded_columns_count": 0,
+    "next_module": "Stage 1 Module 6 - Top Direction Recommendation"
+}

@@ -1,0 +1,9 @@
+STAGE 1 MODULE 2 COMPLETED
+Overall Score: 75.62
+Overall Level: Strong Stage0 foundation
+Rows: 3900
+Columns: 16
+Missing %: 0.0
+Possible Targets: ['Subscription Status']
+Risk Columns Count: 4
+Next: Stage 1 Module 3 - ML Possibility Scorer

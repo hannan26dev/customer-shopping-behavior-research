@@ -1,0 +1,60 @@
+{
+    "stage": "Stage 1 Module 4 - Interactive User Decision Interview",
+    "created_on": "2026-09-08 21:56:55.516311",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 3900,
+    "columns": 16,
+    "suggested_top_directions": [
+        "Classification",
+        "Reporting / Dashboard",
+        "Prediction"
+    ],
+    "answers": [
+        {
+            "question_key": "main_goal",
+            "question": "What is your main goal with this dataset?",
+            "user_answer": "Prediction"
+        },
+        {
+            "question_key": "preferred_direction",
+            "question": "Preferred direction: prediction / classification / regression / clustering / anomaly / reporting / research?",
+            "user_answer": "Prediction"
+        },
+        {
+            "question_key": "preferred_target",
+            "question": "Which column do you think should be the target?",
+            "user_answer": "subscription_status"
+        },
+        {
+            "question_key": "forbidden_columns",
+            "question": "Any columns forbidden for ML? Separate by comma.",
+            "user_answer": "none"
+        },
+        {
+            "question_key": "exclude_sensitive",
+            "question": "Should PII/sensitive columns be excluded? yes/no",
+            "user_answer": "yes"
+        },
+        {
+            "question_key": "priority",
+            "question": "Priority: explainability / accuracy / speed / research value?",
+            "user_answer": "accuracy"
+        },
+        {
+            "question_key": "use_case",
+            "question": "Use case: business / academic / dashboard / production / experiment?",
+            "user_answer": "bussiness"
+        },
+        {
+            "question_key": "known_issues",
+            "question": "Any known errors, bias, or special rules?",
+            "user_answer": "none"
+        },
+        {
+            "question_key": "approval_to_continue",
+            "question": "Can Stage 1 continue to final direction planning? yes/no",
+            "user_answer": "yes"
+        }
+    ],
+    "next_module": "Stage 1 Module 5 - Target and Column Use Decision"
+}

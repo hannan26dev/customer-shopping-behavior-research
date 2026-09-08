@@ -1,0 +1,4 @@
+column_name,stage2_action
+customer_id,Exclude
+age,Exclude
+gender,Exclude

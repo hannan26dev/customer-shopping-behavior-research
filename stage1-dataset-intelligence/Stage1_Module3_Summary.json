@@ -1,0 +1,45 @@
+{
+    "stage": "Stage 1 Module 3 - ML Possibility Scorer",
+    "created_on": "2026-09-08 21:11:31.633673",
+    "rows": 3900,
+    "columns": 16,
+    "numeric_columns_count": 5,
+    "categorical_columns_count": 11,
+    "missing_percentage": 0.0,
+    "duplicate_rows": 0,
+    "risk_columns_count": 4,
+    "classification_targets": [
+        "subscription_status"
+    ],
+    "regression_targets": [],
+    "top_3_directions": [
+        {
+            "direction": "Classification",
+            "score_out_of_100": 87,
+            "suitability_level": "Highly suitable",
+            "possible_target": "['subscription_status']",
+            "reason": "Suitable when a meaningful low-cardinality target exists.",
+            "recommended_metrics": "F1, Recall, Precision, Accuracy, ROC-AUC",
+            "required_user_confirmation": "Confirm categorical target and class meaning."
+        },
+        {
+            "direction": "Reporting / Dashboard",
+            "score_out_of_100": 87,
+            "suitability_level": "Highly suitable",
+            "possible_target": "No target required",
+            "reason": "Usually useful for tabular datasets even before ML.",
+            "recommended_metrics": "KPIs, summaries, charts",
+            "required_user_confirmation": "Confirm reporting questions."
+        },
+        {
+            "direction": "Prediction",
+            "score_out_of_100": 82,
+            "suitability_level": "Highly suitable",
+            "possible_target": "['subscription_status']",
+            "reason": "Possible if a meaningful target column is confirmed.",
+            "recommended_metrics": "Depends on target type",
+            "required_user_confirmation": "Confirm prediction goal and target column."
+        }
+    ],
+    "next_module": "Stage 1 Module 4 - Interactive User Decision Interview"
+}

@@ -1,0 +1,10 @@
+question_key,question,user_answer
+main_goal,What is your main goal with this dataset?,Prediction
+preferred_direction,Preferred direction: prediction / classification / regression / clustering / anomaly / reporting / research?,Prediction
+preferred_target,Which column do you think should be the target?,subscription_status
+forbidden_columns,Any columns forbidden for ML? Separate by comma.,none
+exclude_sensitive,Should PII/sensitive columns be excluded? yes/no,yes
+priority,Priority: explainability / accuracy / speed / research value?,accuracy
+use_case,Use case: business / academic / dashboard / production / experiment?,bussiness
+known_issues,"Any known errors, bias, or special rules?",none
+approval_to_continue,Can Stage 1 continue to final direction planning? yes/no,yes

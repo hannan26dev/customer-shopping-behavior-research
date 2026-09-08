@@ -1,0 +1,23 @@
+{
+    "stage": "Stage 1 Module 2 - Stage0 Intelligence Interpreter",
+    "created_on": "2026-09-08 21:11:28.105812",
+    "rows": 3900,
+    "columns": 16,
+    "numeric_columns_count": 5,
+    "categorical_columns_count": 11,
+    "missing_percentage": 0.0,
+    "duplicate_rows": 0,
+    "possible_target_columns": [
+        "Subscription Status"
+    ],
+    "risk_columns_count": 4,
+    "risk_columns": [
+        "customer_id",
+        "age",
+        "gender",
+        "subscription_status"
+    ],
+    "overall_stage0_foundation_score": 75.62,
+    "overall_stage0_foundation_level": "Strong Stage0 foundation",
+    "next_module": "Stage 1 Module 3 - ML Possibility Scorer"
+}

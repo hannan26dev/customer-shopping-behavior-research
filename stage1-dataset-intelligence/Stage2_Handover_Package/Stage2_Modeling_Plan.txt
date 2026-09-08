@@ -1,0 +1,8 @@
+STAGE2 MODELING PLAN
+Primary direction: Prediction
+Target column: subscription_status
+Allowed features: 12
+Excluded columns: 3
+Review columns: 0
+Do not use review columns until cleared.
+Do not train final model before target confirmation.

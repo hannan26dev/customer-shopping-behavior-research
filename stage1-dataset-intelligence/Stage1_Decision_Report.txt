@@ -1,0 +1,11 @@
+STAGE 1 MODULE 6 COMPLETED
+Primary Direction: Prediction
+Primary Score: 92
+User Goal: Prediction
+User Target: subscription_status
+Target Candidates: ['subscription_status']
+Feature Columns Count: 12
+Review Columns Count: 3
+Excluded Columns Count: 3
+Blockers: ['Review risk/sensitive/leakage columns.']
+Next: Stage 1 Module 7

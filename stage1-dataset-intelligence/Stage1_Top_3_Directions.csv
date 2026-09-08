@@ -1,0 +1,4 @@
+direction,score_out_of_100,suitability_level,possible_target,reason,recommended_metrics,required_user_confirmation
+Classification,87,Highly suitable,['subscription_status'],Suitable when a meaningful low-cardinality target exists.,"F1, Recall, Precision, Accuracy, ROC-AUC",Confirm categorical target and class meaning.
+Reporting / Dashboard,87,Highly suitable,No target required,Usually useful for tabular datasets even before ML.,"KPIs, summaries, charts",Confirm reporting questions.
+Prediction,82,Highly suitable,['subscription_status'],Possible if a meaningful target column is confirmed.,Depends on target type,Confirm prediction goal and target column.

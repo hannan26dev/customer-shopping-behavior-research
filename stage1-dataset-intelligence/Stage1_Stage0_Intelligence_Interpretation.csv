@@ -1,0 +1,9 @@
+assessment_area,score_out_of_100,level,reason,stage1_action
+Row strength,70,Moderate,Medium row count.,Use baseline models carefully.
+Feature width,80,Good,Many columns available.,Review feature usefulness.
+Missing values,90,Strong,Low missing percentage.,Proceed with normal review.
+Duplicate rows,90,Strong,No duplicate rows detected.,No duplicate action needed.
+Numeric feature strength,80,Good,Multiple numeric columns exist.,"Regression, clustering, anomaly may be possible."
+Categorical feature strength,80,Good,Multiple categorical columns exist.,Classification or segmentation may be possible.
+Target clarity,70,Possible,Possible target columns detected.,User must confirm final target.
+Risk column status,45,Review required,Risk columns detected.,Review before ML.

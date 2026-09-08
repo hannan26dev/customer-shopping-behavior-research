@@ -1,0 +1,17 @@
+column_name,dtype,unique_values,missing_percentage,risk_type,column_role,use_decision
+customer_id,int64,3900,0.0,possible_id,Risk column,Review or exclude
+age,int64,53,0.0,possible_sensitive,Risk column,Review or exclude
+gender,object,2,0.0,possible_sensitive,Risk column,Review or exclude
+item_purchased,object,25,0.0,,Possible feature,Use as feature
+category,object,4,0.0,,Possible feature,Use as feature
+purchase_amount_usd,int64,81,0.0,,Possible feature,Use as feature
+location,object,50,0.0,,Possible feature,Use as feature
+size,object,4,0.0,,Possible feature,Use as feature
+color,object,25,0.0,,Possible feature,Use as feature
+season,object,4,0.0,,Possible feature,Use as feature
+review_rating,float64,26,0.0,,Possible feature,Use as feature
+subscription_status,object,2,0.0,possible_target_or_leakage,Confirmed Target Candidate,Use as target after final confirmation
+discount_applied,object,2,0.0,,Possible feature,Use as feature
+previous_purchases,int64,50,0.0,,Possible feature,Use as feature
+payment_method,object,6,0.0,,Possible feature,Use as feature
+frequency_of_purchases,object,7,0.0,,Possible feature,Use as feature

@@ -1,0 +1,22 @@
+{
+    "stage": "Stage 1 Module 6 - Top Direction Recommendation",
+    "created_on": "2026-09-08 21:57:01.398920",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 3900,
+    "columns": 16,
+    "user_goal": "Prediction",
+    "user_preferred_direction": "Prediction",
+    "user_preferred_target": "subscription_status",
+    "primary_direction": "Prediction",
+    "primary_direction_score": 92.0,
+    "target_candidates": [
+        "subscription_status"
+    ],
+    "feature_columns_count": 12,
+    "review_columns_count": 3,
+    "excluded_columns_count": 3,
+    "blockers": [
+        "Review risk/sensitive/leakage columns."
+    ],
+    "next_module": "Stage 1 Module 7 - Stage2 Handover Package"
+}
